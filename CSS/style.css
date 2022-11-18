@@ -1,0 +1,14 @@
+.hero-section{
+    background-image: linear-gradient(#00000080, #00000080), url(../img/AdobeStock_124781698.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.soc{
+    max-height: 20px;
+}
+
+.logo{
+    max-height: 120px;
+}

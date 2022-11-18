@@ -10,8 +10,91 @@
 
     <title>Hello, world!</title>
   </head>
-  <body>
-    <h1>Hello, world!</h1>
+
+  <body class="container">
+      <header class="d-flex align-items-center justify-content-between px-5">
+        <div>
+          <img src="img/hilton-logo.png" alt="hilton logo" class="img-fluid logo">
+        </div>
+        <nav>
+          <ul class="fw-bold fs-4">
+            <li class="d-inline">Speakers</li>
+            <li class="d-inline px-3">Tickets</li>
+            <li class="d-inline">Venue</li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="hero-section d-flex justify-content-center align-items-center">
+        <div class="hero-text text-center">
+          <h1 class="fw-bold text-warning">FINANCIAL LITERACY SEMINAR</h1>
+          <p class="text-light p-3">Learn from the best on how to become Debt Free in 2023!</p>
+          <button class="btn-primary btn-lg text-white">GET YOUR TICKET</button>
+        </div>
+      </div>
+
+      <div class="speakers px-5 mx-5 my-5">
+        <div class="speakers-heading fw-bold text-center">
+          <h2>The Speakers</h2>
+          <p class="p-4 mx-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, excepturi! Voluptas quasi asperiores enim inventore.</p>
+        </div>
+        <div class="d-flex row d-grid gap-5">
+          <div class="speaker col">
+            <img src="img/pexels-andrea-piacquadio-762020.jpg" alt="photo of jane doe" class="img-fluid rounded">
+            <h3 class="py-2">Jane Doe</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            <p>@janedoe</p>
+          </div>
+          <div class="speaker col">
+            <img src="img/pexels-christina-morillo-1181519.jpg" alt="photo of Janet doe" class="img-fluid rounded">
+            <h3 class="py-2">Janet Doe</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+            <p>@janetdoe</p>
+          </div>
+          <div class="speaker col">
+            <img src="img/pexels-doug-bolton-1445527.jpg" alt="photo of john doe" class="img-fluid rounded">
+            <h3 class="py-2">John Doe</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>@johndoe</p>
+          </div>
+          <div class="speaker col">
+            <img src="img/pexels-thyrone-paas-1722198.jpg" alt="photo of james doe" class="img-fluid rounded">
+            <h3 class="py-2">James Doe</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>@jamesdoe</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="tickets border text-center py-5">
+        <h2 class="fw-bold">Get Your Ticket Today!</h2>
+        <p class="p-4 text-secondary">Each ticket includes: <b>20</b> speakers, <b>1000</b> participants, <b>15</b> sessions, <b>5</b> keynotes.</p>
+        <button class="btn-dark text-white btn-lg">BUY TICKET $149</button>
+      </div>
+
+      <div class="venue d-flex row px-5 mx-5 my-5">
+        <div class="address col">
+          <h2 class="fw-bold">The Venue</h2>
+          <p class="me-5 pe-5">Our event will be held at the <b>Hilton Garden Inn Toledo Downtown 101 N Summit St. Toledo, Ohio.</b></p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2981.32688300479!2d-83.53825078522829!3d41.64867888772014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883b86c584829011%3A0xef4b325be93f65fd!2sHilton%20Garden%20Inn%20Toledo%20Downtown!5e0!3m2!1sen!2sus!4v1668743624501!5m2!1sen!2sus" width="400" height="250" style="border:0; filter: invert(100%) grayscale(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="venue-image col">
+          <img src="img/hilton.jpg" alt="image of the hiltons ballroom" class="img-fluid">
+        </div>
+      </div>
+
+      <footer class="d-flex justify-content-between my-4">
+        <div class="social-icons">
+          <img class="soc" src="img/2021 Twitter logo - black.png" alt="twitter logo">
+          <img class="soc px-2" src="img/InstagramLogo.png" alt="instagram logo">
+          <img  class="soc" src="img/FacebookBlackLogo.png" alt="facebook logo">
+        </div>
+        <div class="copyright">
+          <p class="text-secondary">© iAk Designs 2022</p>
+        </div>
+      </footer>
+
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
