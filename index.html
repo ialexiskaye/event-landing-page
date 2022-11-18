@@ -11,7 +11,7 @@
     <title>Hello, world!</title>
   </head>
 
-  <body class="container">
+  <body class="container-fluid">
       <header class="d-flex align-items-center justify-content-between px-5">
         <div>
           <img src="img/hilton-logo.png" alt="hilton logo" class="img-fluid logo">
@@ -34,34 +34,34 @@
       </div>
 
       <div class="speakers px-5 mx-5 my-5">
-        <div class="speakers-heading fw-bold text-center">
+        <div class="speakers-heading row d-flex justify-content-center fw-bold text-center">
           <h2>The Speakers</h2>
-          <p class="p-4 mx-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, excepturi! Voluptas quasi asperiores enim inventore.</p>
+          <p class="p-4 col-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, excepturi! Voluptas quasi asperiores enim.</p>
         </div>
         <div class="d-flex row d-grid gap-5">
           <div class="speaker col">
             <img src="img/pexels-andrea-piacquadio-762020.jpg" alt="photo of jane doe" class="img-fluid rounded">
             <h3 class="py-2">Jane Doe</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-            <p>@janedoe</p>
+            <p class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            <p class="text-secondary">@janedoe</p>
           </div>
           <div class="speaker col">
             <img src="img/pexels-christina-morillo-1181519.jpg" alt="photo of Janet doe" class="img-fluid rounded">
             <h3 class="py-2">Janet Doe</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-            <p>@janetdoe</p>
+            <p class="text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+            <p class="text-secondary">@janetdoe</p>
           </div>
           <div class="speaker col">
             <img src="img/pexels-doug-bolton-1445527.jpg" alt="photo of john doe" class="img-fluid rounded">
             <h3 class="py-2">John Doe</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-            <p>@johndoe</p>
+            <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <p class="text-secondary">@johndoe</p>
           </div>
           <div class="speaker col">
             <img src="img/pexels-thyrone-paas-1722198.jpg" alt="photo of james doe" class="img-fluid rounded">
             <h3 class="py-2">James Doe</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-            <p>@jamesdoe</p>
+            <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <p class="text-secondary">@jamesdoe</p>
           </div>
         </div>
       </div>
@@ -72,14 +72,14 @@
         <button class="btn-dark text-white btn-lg">BUY TICKET $149</button>
       </div>
 
-      <div class="venue d-flex row px-5 mx-5 my-5">
-        <div class="address col">
+      <div class="venue d-flex row px-5 mx-5 my-5 justify-content-between">
+        <div class="address col-5">
           <h2 class="fw-bold">The Venue</h2>
           <p class="me-5 pe-5">Our event will be held at the <b>Hilton Garden Inn Toledo Downtown 101 N Summit St. Toledo, Ohio.</b></p>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2981.32688300479!2d-83.53825078522829!3d41.64867888772014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883b86c584829011%3A0xef4b325be93f65fd!2sHilton%20Garden%20Inn%20Toledo%20Downtown!5e0!3m2!1sen!2sus!4v1668743624501!5m2!1sen!2sus" width="400" height="250" style="border:0; filter: invert(100%) grayscale(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <div class="venue-image col">
-          <img src="img/hilton.jpg" alt="image of the hiltons ballroom" class="img-fluid">
+        <div class="venue-image col-6">
+          <img src="img/hilton.jpg" alt="image of the hiltons ballroom" class="img-fluid w-100 h-100">
         </div>
       </div>
 
